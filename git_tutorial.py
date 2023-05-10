@@ -21,7 +21,11 @@ A fejlesztésem során a file-jaim / mappáimnak az következő státuszai vanna
   - committed - ez 1 "véglegesített, időbéjeggel ellátott" állapot -> erre az adott commit állapotra
   bármikor vissza tudom állítani a fejlesztésem állapotát
 
+a commit-ok a branch részei
 
+HA CSAPATBAN DOLGOZOL
+1. nem commitálsz közvetlenül a master / main branchra -> a master / main branch általában a kódom
+éles állapotát tartalmazza
 
 
 """
