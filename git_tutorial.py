@@ -27,5 +27,10 @@ HA CSAPATBAN DOLGOZOL
 1. nem commitálsz közvetlenül a master / main branchra -> a master / main branch általában a kódom
 éles állapotát tartalmazza
 
+Amikor Github-ot, Gitlabot vagy ezekhez hasonló megoldást használtok,
+akkor mindig lesz 2 kódbázis:
+
+1. a remote kód - a te gépeden lévő
+2. origin kód - a Github vagy Gitlabon lévő kód
 
 """
