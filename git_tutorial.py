@@ -33,4 +33,8 @@ akkor mindig lesz 2 kódbázis:
 1. a remote kód - a te gépeden lévő
 2. origin kód - a Github vagy Gitlabon lévő kód
 
+Pull Request - a branchek egyesítésének a folyamata
+Szoftver fejlesztésben ez a "négy szem elv"
+
+
 """
