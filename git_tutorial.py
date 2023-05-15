@@ -36,5 +36,15 @@ akkor mindig lesz 2 kódbázis:
 Pull Request - a branchek egyesítésének a folyamata
 Szoftver fejlesztésben ez a "négy szem elv"
 
+Mi történjen azokkal a file-okkal / mappákkal amelyeket nem akarok a git kezelni?
+
+.gitignore
+
+
+PIP Requirements -es telepítés:
+
+2 féleképpen lehet megadni a modulok:
+verziószám nélkül -> legutolsó verziót - "latest" verziót fogja a pip betelepíteni
+verziószámmal -> a megadott verziószámú modult fogja betelepíteni
 
 """
