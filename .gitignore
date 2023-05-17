@@ -1,3 +1,4 @@
 # Ez a file arra való, hogy amit felsorolsz file-ok, mappák, ne legyenek git kezelve
 venv
 .vscode
+meta_downloader/__pycache__
