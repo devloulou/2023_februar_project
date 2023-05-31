@@ -21,16 +21,14 @@ print(response)
 
 #https://image.tmdb.org/t/p/original/AmR3JG1VQVxU8TfAvljUhfSFUOx.jpg
 
-
-
 poster_path = "https://image.tmdb.org/t/p/original"
-
-
-
 
 from urllib.request import urlopen
 download_path = poster_path + response['poster_path']
+print(download_path)
+
 image = urlopen(download_path).read()
+
 
 with open('test.jpg', "wb") as poster:
     poster.write(image)

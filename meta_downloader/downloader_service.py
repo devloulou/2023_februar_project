@@ -18,9 +18,6 @@ class MetaDataLoader:
         if not meta_data:
             return False
         
-        # if len(meta_data) == 0:
-        #     return False
-        
         return meta_data[0]
         
 
