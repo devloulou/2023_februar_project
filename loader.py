@@ -24,7 +24,6 @@ def download_metadata():
 
     ha a movies -ban van olyan adat, ami nincs a meta_json-ben -> letölteni a metaadatot
 
-
     """
     for item in meta_json:
         if item not in movies:            
