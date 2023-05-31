@@ -19,13 +19,13 @@ class FileHandler:
     @staticmethod
     def get_files_path_from_folder(folder_path):
         temp = os.listdir(folder_path)
-        movies = []
+        files = []
 
         for item in temp:
-            if item[-4:] == '.mkv':
-                movies.append(item.split('.')[0])
+            if item.split('.')[1] in ('mkv', 'json'):
+                files.append(item.split('.')[0])
 
-        return movies
+        return files
     
     def write_json(self, json_path, data):
         # if not os.path.exists(os.path.dirname(json_path)):
@@ -40,7 +40,8 @@ class FileHandler:
         if not os.path.exists(self.posters):
             os.mkdir(self.posters)
 
-    def write_image(self, download_path, file_name):
+    @staticmethod
+    def write_image(download_path, file_name):
         from urllib.request import urlopen
 
         image = urlopen(download_path).read()
@@ -48,6 +49,11 @@ class FileHandler:
         with open(file_name, "wb") as poster:
             poster.write(image)
 
+    @staticmethod
+    def remove_file(file_path):
+        if os.path.exists(file_path):
+            os.remove(file_path)
+        return True
 
 if __name__ == '__main__':
     from downloader_service import MetaDataLoader

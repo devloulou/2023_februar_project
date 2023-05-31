@@ -1,0 +1,19 @@
+{
+    "adult": false,
+    "backdrop_path": "/7hQTANu5TAEe4jrTerYHszyTOpV.jpg",
+    "genre_ids": [
+        35,
+        10749
+    ],
+    "id": 2105,
+    "original_language": "en",
+    "original_title": "American Pie",
+    "overview": "At a high-school party, four friends find that losing their collective virginity isn't as easy as they had thought. But they still believe that they need to do so before college. To motivate themselves, they enter a pact to all \"score\" by their senior prom.",
+    "popularity": 35.418,
+    "poster_path": "/mMprGx972sf1TCI8gZUIVkicSHc.jpg",
+    "release_date": "1999-07-09",
+    "title": "American Pie",
+    "video": false,
+    "vote_average": 6.559,
+    "vote_count": 6964
+}
