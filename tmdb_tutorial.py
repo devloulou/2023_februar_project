@@ -6,16 +6,16 @@ search = tmdb.Search()
 
 response = search.movie(query='Prey')['results'][0]
 
-print(response)
+# print(response)
 
 # if not response:
 #     print(10)
 
-# movie = tmdb.Movies(348)
+movie = tmdb.Movies(197)
 
-# for item in movie.credits()['cast']:
-#     if item['cast_id'] == 89:
-#         print(item)
+for item in movie.credits()['cast']:
+    #if item['cast_id'] == 89:
+    print(item)
 
 # képet kiírni
 
